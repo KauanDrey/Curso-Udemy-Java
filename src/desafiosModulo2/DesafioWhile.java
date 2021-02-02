@@ -23,6 +23,8 @@ public class DesafioWhile {
 				System.out.println("Nota inválida!!!");
 			}
 
+			
+			
 		}
 
 		// Calcular a média

@@ -15,7 +15,9 @@ public class SwitchComBreak {
 		switch (nota) {
 		case 10:
 		case 9:
-			conceito = "A";
+			if (nota % 2 == 0 ) {
+				System.out.println("");
+			}
 			break;
 		case 8:
 		case 7:

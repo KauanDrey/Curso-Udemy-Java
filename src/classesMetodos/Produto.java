@@ -2,10 +2,20 @@ package classesMetodos;
 
 public class Produto {
 
-	String nome;
-	double preco;
-	double desconto;
-	
+	public String nome;
+	public double preco;
+	static public double desconto = 0.25;
+
+	Produto() {
+
+	}
+
+	Produto(String nomeInicial, double precoInicial) {
+		nome = nomeInicial;
+		preco = precoInicial;
+		
+	}
+
 	double precoComDesconto() {
 		return preco * (1 - desconto);
 	}
@@ -13,6 +23,5 @@ public class Produto {
 	double precoComDesconto(double descontoDoGerente) {
 		return preco * (1 - desconto + descontoDoGerente);
 	}
-	
-	
+
 }
