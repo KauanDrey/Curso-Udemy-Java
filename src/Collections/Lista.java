@@ -14,14 +14,13 @@ public class Lista {
 		lista.add(new Usuario("Lia"));
 		lista.add(new Usuario("Bia"));
 		lista.add(new Usuario("Manu"));
-		
+
 		System.out.println(lista.get(3)); // pega o index e imprime
-		
+
 		System.out.println(">>>> " + lista.remove(1));
 		System.out.println(lista.remove(new Usuario("Manu")));
 		System.out.println("Tem o nome: " + lista.contains(new Usuario("Lia")));
-		
-		
+
 		for (Usuario u : lista) {
 			System.out.println(u.nome);
 		}

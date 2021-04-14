@@ -14,7 +14,7 @@ public class For1 {
 		System.out.println("");
 
 		for (int y = 0; y <= 20; y += 2) {
-			System.out.printf("I = %d\n", y);
+			System.out.printf("K = %d\n", y);
 		}
 
 		System.out.println("");

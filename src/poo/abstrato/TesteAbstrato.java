@@ -1,0 +1,20 @@
+package poo.abstrato;
+
+public class TesteAbstrato {
+	
+	public static void main(String[] args) {
+		Mamifero a = new Dog();
+		System.out.println(a.mover());
+		System.out.println(a.mamar());
+		System.out.println(a.respirar());
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+}
